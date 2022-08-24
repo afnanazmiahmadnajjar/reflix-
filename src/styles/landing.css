@@ -1,0 +1,57 @@
+#landing-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 
+    "u1 u2 u3 u4"
+}
+
+.name{
+    text-align: center;
+    margin: auto;
+}
+
+.users{
+    height: 200px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.user-0{
+    grid-area: u1;
+    
+}
+
+.user-1{
+    grid-area: u2;
+   
+}
+
+.user-2{
+    grid-area: u3;
+}
+
+.user-3{
+    grid-area: u4;
+}
+
+.blue{
+    background-color: #3498db;
+}
+
+.red{
+    background-color: #e74c3c;
+}
+
+.green{
+    background-color: #2ecc71;
+}
+
+.yellow{
+    background-color: #f1c40f;
+}
